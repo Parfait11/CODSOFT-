@@ -1,8 +1,8 @@
 :root {
-	--dark: #7b89a0;
-	--darker: #3c495c;
-	--darkest: #111827;
-	--grey: hsl(225, 10%, 8%);
+	--dark: #374151;
+	--white: #d0daea;
+	--darkest: #365fb7;
+	--grey: #6B7280;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
 	--light: #EEE;
@@ -49,7 +49,7 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-	background-color: var(--darker);
+	background-color: var(--white);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
